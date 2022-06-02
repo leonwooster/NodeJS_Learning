@@ -16,3 +16,7 @@ sayHi(names.peter);
 const os = require('os')
 const user = os.userInfo()
 console.log(user)
+
+require('./module4')
+
+const fs = require('./file_module')
