@@ -4,9 +4,11 @@
   "description": "Heretic Package",
   "main": "Http.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node loadash_test.js",
+    "dev": "nodemon loadash_test.js"
   },
-  "author": "",
+  "author": "Heretic",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21"
