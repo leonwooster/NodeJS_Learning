@@ -1,0 +1,11 @@
+{
+    "name": "test",
+    "scripts": {
+        "start:dev": "nodemon",
+        "build": "rimraf ./build && tsc",
+        "start": "npm run build && node build/app1.js"
+    },
+    "devDependencies": {
+        "rimraf": "^3.0.2"
+    }    
+}
